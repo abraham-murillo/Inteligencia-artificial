@@ -1,4 +1,5 @@
-// https: // classroom.google.com/c/NDUzNTYwMTE5MjUz/a/NDUzNTYwMTE5Mjgz/details
+// https://classroom.google.com/c/NDUzNTYwMTE5MjUz/a/NDUzNTYwMTE5Mjgz/details
+// Solución al problema puzzle búsqueda en amplitud
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -119,9 +120,9 @@ int can(State start, State end) {
 
 int main() {
   State start;
-  start.mat = getMatrix({7, 2, 4, 5, 0, 6, 8, 3, 1});
+  // start.mat = getMatrix({7, 2, 4, 5, 0, 6, 8, 3, 1});
   // start.mat = getMatrix({1, 3, 4, 8, 6, 2, 0, 7, 5});
-  // start.mat = getRandomMatrix();
+  start.mat = getRandomMatrix();
 
   cout << "Estado random:\n";
   cout << start.mat << '\n';
