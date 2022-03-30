@@ -1,6 +1,3 @@
-// https://classroom.google.com/c/NDUzNTYwMTE5MjUz/a/NDUzNTYwMTE5Mjgz/details
-// Solución al problema puzzle búsqueda en amplitud
-
 #include <bits/stdc++.h>
 using namespace std;
 
